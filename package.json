@@ -1,0 +1,26 @@
+{
+  "name": "express-25",
+  "version": "1.0.0",
+  "description": "nodejs with express",
+  "homepage": "https://github.com/thunderr690/node.js#readme",
+  "bugs": {
+    "url": "https://github.com/thunderr690/node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderr690/node.js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "nodemon": "^3.1.10"
+  }
+}
