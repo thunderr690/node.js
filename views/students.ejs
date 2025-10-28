@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Data hill be here</h1>
+
+    <table border="1">
+      <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Email</td>
+      </tr>
+      <!-- 🔹 <% %> — Scriptlet Tag
+
+Used to write JavaScript code inside the EJS file.
+It executes but does not output anything to the HTML. -->
+      <!-- <%= %> — Output Tag
+
+Used to print a value (it escapes HTML for safety). -->
+
+      <% students.forEach(student => { %>
+      <tr>
+        <td><%= student.name %></td>
+        <td><%= student.age %></td>
+        <td><%= student.email %></td>
+      </tr>
+      <% }) %>
+
+      <!-- <tr>
+            <td>sam</td>
+            <td>19</td>
+            <td>sam@test.com</td>
+        </tr> -->
+    </table>
+  </body>
+</html>
