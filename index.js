@@ -1,3 +1,5 @@
+// Connecti node with mongoDB | mongoDB npm
+
 import express from 'express'
 import { MongoClient } from 'mongodb'
 

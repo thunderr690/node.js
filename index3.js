@@ -1,3 +1,5 @@
+// REST API with Node.js and MongoDB
+
 import express from 'express'
 import { MongoClient } from 'mongodb'
 

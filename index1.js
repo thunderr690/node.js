@@ -1,3 +1,5 @@
+// Display MongoDB data on UI using Node.js and EJS
+
 import express from 'express'
 import { MongoClient } from 'mongodb'
 
