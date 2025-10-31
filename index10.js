@@ -10,7 +10,6 @@ await mongoose.connect("mongodb://localhost:27017/school").then(() => {
     console.log("______connected_______");
 })
 
-
 app.get('/', async (req, resp) => {
     const studentdata = await studentModel.find()
     resp.send({studentdata})
