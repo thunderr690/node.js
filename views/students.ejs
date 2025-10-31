@@ -30,6 +30,7 @@ Used to print a value (it escapes HTML for safety). -->
         <td><%= student.age %></td>
         <td><%= student.email %></td>
         <td><a href="/ui/delete/<%= student._id %>">Delete</a></td>
+        <td><a href="/ui/student/<%= student._id %>">Update</a></td>
 
       </tr>
       <% }) %>
