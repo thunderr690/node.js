@@ -13,6 +13,8 @@
         <td>Name</td>
         <td>Age</td>
         <td>Email</td>
+        <td>Operation</td>
+
       </tr>
       <!-- 🔹 <% %> — Scriptlet Tag
 
@@ -27,6 +29,8 @@ Used to print a value (it escapes HTML for safety). -->
         <td><%= student.name %></td>
         <td><%= student.age %></td>
         <td><%= student.email %></td>
+        <td><a href="/ui/delete/<%= student._id %>">Delete</a></td>
+
       </tr>
       <% }) %>
 
